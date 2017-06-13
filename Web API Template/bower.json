@@ -1,0 +1,17 @@
+{
+  "name": "Web API Template",
+  "homepage": "https://github.com/disono/ASP.NET-Web-API-Template",
+  "authors": [
+    "Archie Disono <disonoarchie@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "Apache-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

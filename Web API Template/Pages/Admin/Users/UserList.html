@@ -1,0 +1,58 @@
+﻿<!--
+	@author Archie Disono
+
+	@git https://github.com/disono/ASP.NET-Web-API-Template
+	@created 2017-06-11
+	@lincensed Apache 2.0
+	-->
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+	<h1>
+		Users
+		<small>List of users</small>
+	</h1>
+
+	<ol class="breadcrumb">
+		<li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+		<li class="active">Users</li>
+	</ol>
+</section>
+
+<!-- Main content -->
+<section class="content container-fluid">
+	<div class="loader" ng-if="!dataList.length"></div>
+
+	<div class="row" ng-if="dataList.length">
+		<div class="col-sm-12">
+			<p><a href="#!/user/create" class="btn btn-primary">Add New User</a></p>
+
+			<div class="box">
+				<table class="table table-responsive table-bordered table-striped dataTable" role="grid">
+					<thead>
+						<tr role="row">
+							<th class="sorting" aria-label="sort column ascending">Name</th>
+							<th class="sorting" aria-label="sort column ascending">Address</th>
+							<th class="sorting" aria-label="sort column ascending">Email</th>
+							<th class="sorting" aria-label="sort column ascending">Action</th>
+						</tr>
+					</thead>
+
+					<tbody>
+						<tr ng-repeat="data in dataList | orderBy:'-LastName' | filter : filterKeyword">
+							<td>{{data.FirstName + ' ' + data.LastName}}</td>
+							<td>{{data.HomeAddress}}</td>
+							<td>{{data.Email}}</td>
+							<td>
+								<div class="btn-group btn-group-xs" role="group">
+									<a href="#!/user/edit/{{data.Id}}" class="btn btn-default">Edit</a>
+									<a href="" class="btn btn-danger" ng-click="delete($index, data.Id)">Delete</a>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</section>

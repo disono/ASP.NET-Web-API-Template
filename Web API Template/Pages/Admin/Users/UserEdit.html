@@ -1,0 +1,72 @@
+﻿<!--
+	@author Archie Disono
+
+	@git https://github.com/disono/ASP.NET-Web-API-Template
+	@created 2017-06-11
+	@lincensed Apache 2.0
+	-->
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+	<h1>
+		Users
+		<small>Edit user</small>
+	</h1>
+
+	<ol class="breadcrumb">
+		<li><a href="#!/dashboard"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+		<li><a href="#!/user"><i class="fa fa-users"></i> Users</a></li>
+		<li class="active">Edit user</li>
+	</ol>
+</section>
+
+<!-- Main content -->
+<section class="content container-fluid">
+	<div class="loader" ng-if="!inputs"></div>
+
+	<div class="box box-primary" ng-if="inputs">
+		<form role="form" ng-submit="update($event, inputs)">
+			<div class="box-body">
+				<div class="form-group">
+					<label for="FirstName">FirstName</label>
+					<input type="text" class="form-control" id="FirstName" placeholder="FirstName" ng-model="inputs.FirstName">
+				</div>
+				<div class="form-group">
+					<label for="Password">LastName</label>
+					<input type="text" class="form-control" id="LastName" placeholder="LastName" ng-model="inputs.LastName">
+				</div>
+				<div class="form-group">
+					<label for="PhoneNumber">Phone Number</label>
+					<input type="tel" class="form-control" id="PhoneNumber" placeholder="Phone Number" ng-model="inputs.PhoneNumber">
+				</div>
+				<div class="form-group">
+					<label for="HomeAddress">Home Address</label>
+					<input type="text" class="form-control" id="HomeAddress" placeholder="Home Address" ng-model="inputs.HomeAddress">
+				</div>
+				<div class="form-group">
+					<label for="BirthDate">Birth Date</label>
+					<input type="text" class="form-control date_picker" id="BirthDate" placeholder="Birth Date" ng-model="inputs.BirthDate">
+				</div>
+				<div class="form-group">
+					<label for="PhoneNumber">Gender</label>
+					<select class="form-control" ng-model="inputs.Gender">
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label for="Role">Role</label>
+					<select class="form-control" id="Role" ng-model="inputs.Role">
+						<option>Administrators</option>
+						<option>Employee</option>
+					</select>
+				</div>
+
+				<!-- /.box-body -->
+				<div class="box-footer">
+					<button type="submit" class="btn btn-primary pull-right">Save Changes</button>
+				</div>
+			</div>
+		</form>
+	</div>
+</section>
