@@ -5,8 +5,8 @@
 /// @lincensed Apache 2.0
 
 using Dapper;
+using Oracle.ManagedDataAccess.Client;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
 
 namespace Web_API_Template.Models
@@ -14,11 +14,11 @@ namespace Web_API_Template.Models
 	public class UserModel
 	{
 		private string ColumnName = "AspNetUsers";
-		private IDbConnection db;
+		private OracleConnection db;
 
 		public UserModel()
 		{
-			db = new DBHelper().dbSQLCon();
+			db = new DBHelper().dbOracleCon();
 		}
 
 		public List<AspNetUser> query()

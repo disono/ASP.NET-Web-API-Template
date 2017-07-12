@@ -20,7 +20,7 @@ namespace Web_API_Template.Models
 		private string connectionString = "DBConnection";
 
 		// sql or oracle
-		public string connectionType = "sql";
+		public string connectionType = "oracle";
 
 		public DBHelper()
 		{

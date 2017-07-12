@@ -32,7 +32,7 @@ namespace Web_API_Template.Models
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext()
-            : base("DefaultConnection", throwIfV1Schema: false)
+            : base("DBConnection", throwIfV1Schema: false)
         {
         }
         

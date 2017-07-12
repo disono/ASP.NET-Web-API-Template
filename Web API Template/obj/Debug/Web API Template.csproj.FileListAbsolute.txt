@@ -32,6 +32,8 @@ E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Antlr3.Runtime.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Dapper.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\EntityFramework.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\EntityFramework.SqlServer.dll
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.dll
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.WebApi.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.Agent.Intercept.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.DependencyCollector.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -54,6 +56,8 @@ E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.Owin.Sec
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.Owin.Security.Twitter.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.Web.Infrastructure.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Newtonsoft.Json.dll
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Oracle.ManagedDataAccess.dll
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Oracle.ManagedDataAccess.EntityFramework.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Owin.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\System.Net.Http.Formatting.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\System.Web.Helpers.dll
@@ -68,6 +72,8 @@ E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\System.Web.WebPage
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\System.Web.WebPages.Razor.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\WebGrease.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Dapper.xml
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.xml
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.WebApi.xml
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Newtonsoft.Json.xml
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\System.Net.Http.Formatting.xml
@@ -101,11 +107,6 @@ E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.Depen
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.ServerTelemetryChannel.xml
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.WindowsServer.xml
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Microsoft.AI.Web.xml
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\obj\Debug\Web API Template.csprojResolveAssemblyReference.cache
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\obj\Debug\Web API Template.dll
 E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\obj\Debug\Web API Template.pdb
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.dll
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.WebApi.dll
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.xml
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\FluentValidation.WebApi.xml
-E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\bin\Oracle.ManagedDataAccess.dll
+E:\Projects\ASP\ASP.NET-Web-API-Template\Web API Template\obj\Debug\Web API Template.csprojResolveAssemblyReference.cache

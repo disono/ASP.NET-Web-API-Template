@@ -66,6 +66,26 @@ DSNApp.controller('loginCtrl', function ($scope, $location, DSNAuthService) {
 		password: null
 	};
 
+	// register
+	DSNAuthService.register({
+		UserName: 'admin@gmail.com',
+		Password: 'WoW101X!',
+		ConfirmPassword: 'WoW101X!',
+
+		FirstName: 'Admin',
+		LastName: 'User',
+		Gender: 'Male',
+		BirthDate: moment().format('LL'),
+		HomeAddress: 'Home Address Demo',
+
+		CreatedAt: moment().format('YYYY-MM-DD HH:mm:ss'),
+		UpdatedAt: moment().format('YYYY-MM-DD HH:mm:ss')
+	}).then(function (response) {
+		console.log(response);
+	}, function (e) {
+		console.log(JSON.stringify(e));
+	});
+
 	// login function
 	$scope.login = function (inputs) {
 		if (!inputs.username || !inputs.password) {
